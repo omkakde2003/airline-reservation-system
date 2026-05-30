@@ -1,14 +1,37 @@
 # ✈️ Airline Reservation System - CI/CD Automation on AWS
 
-## 📖 Project Overview
+<div align="center">
 
-This project demonstrates a complete DevOps CI/CD workflow using Git, GitHub, Jenkins, Docker, and AWS EC2.
+# 🚀 DevOps Project Portfolio
 
-The Airline Reservation System is automatically built, tested, containerized, and deployed whenever code is pushed to GitHub.
+### Automated Build • Test • Deploy using GitHub, Jenkins, Docker & AWS
+
+![GitHub](https://img.shields.io/badge/GitHub-Version_Control-black?style=for-the-badge\&logo=github)
+![Jenkins](https://img.shields.io/badge/Jenkins-CI%2FCD-red?style=for-the-badge\&logo=jenkins)
+![Docker](https://img.shields.io/badge/Docker-Containerization-blue?style=for-the-badge\&logo=docker)
+![AWS](https://img.shields.io/badge/AWS-Cloud-orange?style=for-the-badge\&logo=amazonaws)
+
+</div>
 
 ---
 
-## 🏗️ Architecture
+# 📖 Project Overview
+
+The **Airline Reservation System** demonstrates a complete **DevOps CI/CD Pipeline** using modern cloud and automation tools.
+
+Whenever developers push code to GitHub, Jenkins automatically:
+
+✅ Pulls latest source code
+✅ Builds the application
+✅ Runs automated tests
+✅ Creates Docker images
+✅ Deploys containers to AWS EC2
+
+This reduces manual deployment effort and ensures faster software delivery.
+
+---
+
+# 🏗️ System Architecture
 
 ```text
 Developer
@@ -32,116 +55,162 @@ Developer
 
 ---
 
-## 🚀 Application Homepage
+# 🌐 Application Homepage
 
 ![Homepage](screenshots/01_Homepage.png.png)
 
-The homepage allows users to:
+### Features
 
-* Search Flights
-* Book Tickets
-* Manage Reservations
-* View Booking History
+✨ Flight Search
+
+✨ Online Ticket Booking
+
+✨ Booking Management
+
+✨ User Authentication
+
+✨ Responsive UI
 
 ---
 
-## 📂 GitHub Repository
+# 📂 Source Code Repository
 
 ![GitHub Repository](screenshots/02_GitHub_Repository.png)
 
-Source code is managed using Git and GitHub.
+The project source code is maintained using **Git & GitHub**.
 
-Repository includes:
+### Repository Contents
 
-* Frontend Source Code
-* Backend APIs
-* Jenkins Pipeline
-* Docker Configuration
-* Deployment Documentation
+| Folder      | Purpose                 |
+| ----------- | ----------------------- |
+| frontend    | User Interface          |
+| backend     | APIs & Business Logic   |
+| docker      | Container Configuration |
+| jenkins     | Pipeline Configuration  |
+| screenshots | Project Documentation   |
 
 ---
 
-## 📝 Git Commit History
+# 📝 Git Commit History
 
 ![Commit History](screenshots/03_Git_Commit_History.png)
 
-Git commits help track project changes and maintain version history.
+Version control is managed using Git.
+
+### Sample Commits
+
+* Initial Project Setup
+* Add Backend APIs
+* Configure Docker
+* Configure Jenkins
+* Add Project Documentation
 
 ---
 
-## 🔀 Pull Request Workflow
+# 🔀 Pull Request Workflow
 
 ![Pull Request](screenshots/04_Pull_Request_Merged.png)
 
-Feature branches are merged into the main branch using Pull Requests.
+### Development Process
 
-Workflow:
+```text
+Feature Branch
+      ↓
+Pull Request
+      ↓
+Code Review
+      ↓
+Merge to Main
+```
 
-Feature Branch → Pull Request → Code Review → Merge
+Benefits:
+
+✔ Safe Development
+
+✔ Better Collaboration
+
+✔ Controlled Releases
 
 ---
 
-## ⚙️ Jenkins Dashboard
+# ⚙️ Jenkins Dashboard
 
 ![Jenkins Dashboard](screenshots/05_Jenkins_Dashboard.png)
 
-Jenkins automates:
+Jenkins automates the entire CI/CD workflow.
 
-* Continuous Integration
-* Continuous Delivery
-* Build Automation
-* Deployment Automation
+### Configured Jobs
+
+* airline-backend
+* airline-frontend
+* airline-tests
+* airline-docker-build
+* airline-deploy-pipeline
 
 ---
 
-## ✅ Successful Jenkins Build
+# ✅ Successful Build Pipeline
 
 ![Jenkins Build](screenshots/06_Jenkins_Successful_Build.png)
 
-Pipeline Stages:
+### Pipeline Stages
 
-1. Checkout Source Code
-2. Build Application
-3. Execute Tests
-4. Build Docker Image
-5. Deploy Application
+| Stage        | Description             |
+| ------------ | ----------------------- |
+| Checkout     | Pull source code        |
+| Build        | Compile application     |
+| Test         | Execute automated tests |
+| Docker Build | Create Docker image     |
+| Deploy       | Deploy container        |
 
 ---
 
-## 🧪 Automated Testing
+# 🧪 Automated Testing
 
 ![Test Report](screenshots/07_Jenkins_Test_Report.png)
 
-Testing Results:
+### Test Summary
 
-* Total Tests: 87
-* Passed: 87
-* Failed: 0
-* Success Rate: 100%
+| Metric       | Result |
+| ------------ | ------ |
+| Total Tests  | 87     |
+| Passed       | 87     |
+| Failed       | 0      |
+| Success Rate | 100%   |
+
+🎯 High test coverage ensures application quality and reliability.
 
 ---
 
-## 🐳 Docker Images
+# 🐳 Docker Images
 
 ![Docker Images](screenshots/08_Docker_Images.png)
 
-Docker images are created automatically during the CI/CD process.
-
-Command Used:
+Docker images are automatically created during deployment.
 
 ```bash
 docker images
 ```
 
+Benefits:
+
+* Consistent Environment
+* Easy Deployment
+* Fast Scaling
+
 ---
 
-## 🐳 Running Containers
+# 🐳 Running Containers
 
 ![Running Containers](screenshots/09_Docker_Running_Containers.png)
 
-Running containers after deployment.
+Running Containers:
 
-Command Used:
+* airline-app
+* airline-backend
+* airline-frontend
+* mongo
+* nginx
 
 ```bash
 docker ps
@@ -149,39 +218,38 @@ docker ps
 
 ---
 
-## ☁️ AWS EC2 Deployment
+# ☁️ AWS EC2 Deployment
 
 ![AWS EC2](screenshots/10_AWS_EC2_Console.png)
 
-Application deployed on:
+### Deployment Environment
 
-* AWS EC2
-* Ubuntu Server
-* Docker Container Environment
-
-Region:
-
-```text
-ap-south-1 (Mumbai)
-```
+| Service | Details             |
+| ------- | ------------------- |
+| Cloud   | AWS                 |
+| Service | EC2                 |
+| Region  | Mumbai (ap-south-1) |
+| OS      | Ubuntu              |
+| Runtime | Docker              |
 
 ---
 
-## 🌐 Final Live Application
+# 🌍 Live Application
 
 ![Live Application](screenshots/11_Final_Live_Application.png)
 
-The application is successfully deployed and accessible through AWS EC2.
+The Airline Reservation System is successfully deployed on AWS and accessible to users.
 
 ---
 
-## 🛠️ Technology Stack
+# 🛠️ Technology Stack
 
 ### Frontend
 
 * Angular
 * HTML
 * CSS
+* Bootstrap
 
 ### Backend
 
@@ -192,7 +260,7 @@ The application is successfully deployed and accessible through AWS EC2.
 
 * MongoDB
 
-### DevOps Tools
+### DevOps
 
 * Git
 * GitHub
@@ -202,46 +270,50 @@ The application is successfully deployed and accessible through AWS EC2.
 
 ---
 
-## 📂 Project Structure
-
-```text
-airline-reservation-system/
-
-├── frontend/
-├── backend/
-├── docker/
-├── jenkins/
-├── screenshots/
-├── README.md
-└── .gitignore
-```
-
----
-
-## 📈 CI/CD Pipeline Flow
+# 📈 Complete CI/CD Flow
 
 ```text
 Code Commit
-     ↓
+      ↓
 GitHub Push
-     ↓
+      ↓
 Webhook Trigger
-     ↓
+      ↓
 Jenkins Build
-     ↓
+      ↓
 Automated Testing
-     ↓
-Docker Build
-     ↓
+      ↓
+Docker Image Creation
+      ↓
 AWS Deployment
-     ↓
-Application Live
+      ↓
+Live Application
 ```
 
 ---
 
-## 👨‍💻 Author
+# 🎯 Key Achievements
 
-**Onkar Kakde**
+✅ Automated CI/CD Pipeline
 
-GitHub: https://github.com/omkakde2003
+✅ Dockerized Application
+
+✅ Cloud Deployment on AWS
+
+✅ GitHub Version Control
+
+✅ Automated Testing
+
+✅ Reduced Manual Deployment Effort
+
+---
+
+# 👨‍💻 Author
+
+## Onkar Kakde
+
+🎓 MCA Student
+
+☁️ AWS & DevOps Enthusiast
+
+🐙 GitHub: https://github.com/omkakde2003
