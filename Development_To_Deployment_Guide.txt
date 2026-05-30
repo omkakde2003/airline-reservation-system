@@ -1,0 +1,1 @@
+Detailed guide covering Git, GitHub, Jenkins, Docker and AWS deployment workflow.
